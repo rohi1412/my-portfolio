@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+
+/* Home CSS */
+#home{
+    background: linear-gradient(rgba(1, 1, 34,0.7), rgba(1, 1, 34, 0.7)), url(images/ethics-of-wildlife-photography-squirrel.jpg) ;
+    background-size: cover;
+}
+
+nav{
+    background: linear-gradient(rgba(99, 99, 202, 0.9),rgba(1, 1, 34,0.7));
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 40px;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.nav-links li a:hover{
+    color: red;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    position: fixed;
+    top: 15px;
+    right: 40px;
+    z-index: 1000;
+    padding-right: 20px;
+}
+
+#home-text{
+    padding: 300px 0;
+    color: rgb(216, 214, 214);
+    font-size: 3rem;
+}
+.home-text{
+    text-align: center;
+    color: rgb(216, 214, 214);
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.home-italics{
+    text-align: center;
+    color: rgb(216, 214, 214);
+    font-size: 1rem;
+    font-style: italic;
+
+}
+
+/* About CSS */
+#about{
+    background-color: rgb(94, 4, 4, 0.1);
+}
+.h1{
+    color: rgb(107, 7, 7);
+    text-transform: capitalize;
+    font-size: 2rem;
+    border-bottom:rgb(107, 7, 7) solid 3px;
+    padding-top: 120px;
+    margin-left: 570px;
+    margin-right: 570px;
+    text-align: center;
+}
+
+.about1{
+    display: flex;
+    padding: 60px 50px;
+}
+.about1 img{
+    width: 400px;
+    height: auto;
+    padding: 0 30px;
+}
+.about h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.about1 p{
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: cursive;
+}
+.divider{
+    width: 100%;
+    height: 50px;
+}
+
+#courses{
+    background-color: rgb(5, 5, 48);
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 13px;
+}
+
+.course{
+    text-align: center;
+    cursor: pointer;
+}
+.course img{
+    width: 300px;
+    height: 200px;
+    cursor: auto;
+}
+.text{
+    color: rgb(235, 181, 181);
+    border-bottom:rgb(235, 181, 181) solid 3px;
+}
+figcaption{
+    background-color:brown;
+    padding: 12px;
+    cursor: pointer;
+}
+figcaption:hover{
+    background-color: rgb(104, 21, 21);
+}
+
+
+/* contact section */
+#contact{
+    background-color: rgb(3, 1, 27);
+}
+#contact h3{
+
+    color: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    padding: 15% 0 90px 0;
+}
+
+.social{
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 120px
+}
+
+.social a{
+    background-color: #fff ;
+    color: rgb(104, 21, 21);
+    border: solid 3px rgb(104, 21, 21);
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+    font-size: 1.7rem;
+}
+.social a:hover{
+    transform: scale(1.2);
+    background-color: rgb(104, 21, 21);
+    color: white;
+    border: #fff 3px solid;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    background:rgb(5, 5, 48);
+    padding: 40px 0 10px 0;
+    margin: 0 60px 0 60px;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: red;
+}
+
+
+
+
+#courses{
+    background-color: rgb(5, 5, 48);
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 13px;
+}
+
+.course{
+    text-align: center;
+}
+.course img{
+    width: 300px;
+    height: 200px;
+}
+.text{
+    color: rgb(235, 181, 181);
+    border-bottom:rgb(235, 181, 181) solid 3px;
+}
+figcaption{
+    background-color:brown;
+    padding: 12px;
+}
+figcaption:hover{
+    background-color: rgb(104, 21, 21);
+}
+
+
+@media screen and (max-width: 600px){
+    .logo{
+        font-size: 12px;
+        padding: 10px;
+    }
+    i{
+        display: block;
+    }
+    #home{
+        background-size: cover;
+    }
+  
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(rgba(1, 1, 34,0.7), rgba(1, 1, 34, 0.7));
+        position: fixed;
+        top: 60px;
+        left: 0;
+        z-index: 999;
+    }
+    .nav-links.active{
+    display: flex;
+    }
+    .nav-links li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links li a{
+        padding: 12px;
+        width: 100%;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+
+    .home-text{
+        font-size: 16px;
+    }
+    .home-italics{
+        font-size: 11px;
+    }
+
+    .h1{
+        font-size: 1.4rem;
+        border: none;
+        padding-top: 60px;
+        margin: 0;
+    }
+
+    .about1{
+        display: block;
+        padding: 60px 50px;
+        text-align: center;
+    }
+
+    .about1 img{
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        padding: 0 10px 0 0;
+    }
+    .about p{
+        font-size: 12px;
+    }
+
+    .courses{
+        gap: 14px;
+        max-width: 900px;
+        padding: 40px 60px;
+    }
+    #heading{
+        color: #fff;
+        text-align: center;
+    }
+    .course img{
+        width: 150px;
+        height: 75px;
+    }
+    figcaption{
+        background-color:brown;
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    #contact h3{
+        font-size: 9px;
+        padding-bottom: 30px;
+    }
+    
+    .social{
+        display: flex; 
+        justify-content: center;
+        padding-bottom: 150px;
+      
+    }
+    
+    .social a{
+        background-color: #fff ;
+        color: rgb(104, 21, 21);
+        border: solid 3px rgb(104, 21, 21);
+        padding: 6px;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: 0.5s ease-in;
+        font-size: 15px;
+    }
+        footer p{
+            font-size: 9px;
+            padding: 5px 0 0 0;
+        }
+    }

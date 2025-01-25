@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roys Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+            <nav>
+                <div class="nav-conatiner">
+                    <div class="logo">Roy's Cap</div>
+                    <div class="hamburger">
+                        <i class="fas fa-bars" onclick="toggleMenu()"></i>
+                    </div>
+                    
+                </div>
+                <ul class="nav-links">
+                    <li id="nav-link"><a href="#home">Home</a></li>
+                    <li id="nav-link"><a href="#about">About</a></li>
+                    <li id="nav-link"><a href="#courses">Courses</a></li>
+                    <li id="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        <div id="home-text">
+            <h1 class="home-text">I'm Olugbode Rohi, a Programmer and a Photographer</h1>
+            <p class="home-italics">Let's talk Business</p>
+        </div>
+    </header>
+<!-- -------------------About Section-------------------------- -->
+<section id="about">
+    <h1 class="h1">About Us</h1>
+    <div class="about1">
+        <img src="images/990A4052.jpg" width="200px">
+        <div class="about">
+            <h2>The Boss</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate dolores 
+                dolorum delectus, minima reprehenderit est sed. Ab repellendus aliquam numquam, 
+                molestias sint cupiditate doloribus voluptas perspiciatis, distinctio aut fugiat 
+                eveniet minima eaque repudiandae similique dolores. Maxime veniam at tempore? 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim consectetur
+                 ducimus esse nesciunt rem dicta laudantium tenetur vel minima atque reiciendis, dolorum
+                 nulla ratione nisi qui voluptate nobis magnam error. Veritatis a obcaecati est delectus.
+                  Natus molestias cupiditate, at fugiat fuga ipsum ducimus! </p>
+                  <div class="divider"></div>
+                  <p> Omnis minima blanditiis nemo,
+                   eos itaque laudantium eveniet dignissimos excepturi, aliquam at deleniti, unde labore
+                    voluptas quisquam architecto. Deserunt, doloribus iure. Praesentium reprehenderit 
+                    aliquid repudiandae perferendis rem vero ipsa reiciendis debitis molestiae cum hic, 
+                    illo quam fugit repellat nisi earum ipsum, quaerat quidem? Unde quam minima nobis. 
+                    Tempore unde, nobis consequuntur id quidem sed ratione corporis modi distinctio neque 
+                    tempora quo, earum voluptatibus eligendi velit alias esse. Magnam iusto est vitae, 
+                    repudiandae rerum voluptatem velit quam quo quia minus aspernatur beatae consequuntur 
+                    placeat facere ducimus dicta animi.</p>
+                    
+        </div>
+    </div>
+</section>
+<!-- -------------------------Courses Section--------------------------- -->
+    <section id="courses">
+        <h1 id="heading">Our Courses</h1>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/ai.jpg">
+                    <figcaption><a class="prod-name">Artificial Intelligence</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/digital-data-pc-computer-gaming-wallpaper-background-art-digital-data-pc-computer-gaming-wallpaper-background-art-useable-310426974.webp">
+                    <figcaption><a class="prod-name">Software Development</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/purple-gaming-nepi2tnxp6g0mvz9.jpg">
+                    <figcaption><a class="prod-name">Gaming</a></figcaption>
+                </div>
+            </div>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/professional-graphic-designer.jpg">
+                    <figcaption><a class="prod-name">Graphic Design</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/photography.jpg">
+                    <figcaption><a>photography</a></figcaption>
+                </div>
+                <div class="course">
+                    <img src="images/Octopus Manipulation.jpg">
+                    <figcaption><a>Photo Manipulation</a></figcaption>
+                </div>
+            </div>
+    </section>
+<!-- -------------------------------------Contact Section---------------------- -->
+<section id="contact">
+            
+    <h3>Click any of the Buttons below to contact us</h3>
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+                    
+    </div>
+
+    <footer>
+        <p>Copyright by Olugbode Rohi</p>
+
+        
+    </footer>
+
+
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</section>
+</body>
+</html>
